@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="labo-web:war">
+    <output-path>$PROJECT_DIR$/labo-web/target</output-path>
+    <root id="archive" name="labo-web.war">
+      <element id="artifact" artifact-name="labo-web:war exploded" />
+    </root>
+  </artifact>
+</component>

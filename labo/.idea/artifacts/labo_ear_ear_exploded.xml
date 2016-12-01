@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="labo-ear:ear exploded">
+    <output-path>$PROJECT_DIR$/labo-ear/target/labo-ear</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="labo-ear/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/labo-ear/target/labo-ear/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/labo-ear/src/main/application" />
+      <element id="archive" name="labo-web.war">
+        <element id="artifact" artifact-name="labo-web:war exploded" />
+      </element>
+      <element id="archive" name="labo-ejb.jar">
+        <element id="artifact" artifact-name="labo-ejb:ejb exploded" />
+      </element>
+    </root>
+  </artifact>
+</component>
